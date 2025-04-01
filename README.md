@@ -1,7 +1,7 @@
 # git-experiments
 Lab for Advanced Software Design class
 
-Steps I took:
+Steps I took Part 1:
     1. Cloned repo. Since I already have Ubuntu on my computer, I only had to use HTTPS to clone the repo using the command git clone (I did not use the git client).
     
     2. Then I made a new file called "new_file.txt" using vim and saved it
