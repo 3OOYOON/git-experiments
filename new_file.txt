@@ -1,1 +1,1 @@
-this is a file i created on my computer locally
+this is a file i created on my computer locally. Making a merge conflict, my favorite actvity.
