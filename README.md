@@ -39,3 +39,11 @@ Steps I took Part 2:
         - Because of this I had to make the newbranch the head/origin branch
 
     4. I was now able to push my changes and pull from the repo
+
+    5. I used git checkout main switch to switch to the main branch
+
+    6. then I used git pull origin main to get the updates from newbranch
+
+    7. next I used git merge master to combine the branch to my main branch
+
+    8. lastly I used git push origin main to finalize the changes to the mainbranch
