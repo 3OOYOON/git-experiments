@@ -27,3 +27,15 @@ Steps I took Part 1:
         - I also saved the passkey locally on my computer because it won't show you the passkey ever again and i need it to make commits
     
     8. Lastly, I used git push to push my changes to my repository, and I was able to see the new file on the GitHub website for my repository.
+
+
+Steps I took Part 2:
+
+    1. I first made a new branch called new branch
+    
+    2. then I update new_file.txt
+
+    3. when I tried to push my changes it wouldnt allow me as I was on a new branch
+        - Because of this I had to make the newbranch the head/origin branch
+
+    4. I was now able to push my changes and pull from the repo
