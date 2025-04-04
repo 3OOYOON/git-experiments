@@ -1,1 +1,1 @@
-this is a file i created on my computer locally. This is the new change on a new branch
+this is a file i created on my computer locally. This is the new change on a new branch. I love making merge conflicts, it's my favorite activity.
