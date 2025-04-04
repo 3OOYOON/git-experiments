@@ -24,7 +24,7 @@ Steps I took Part 1:
     
     7. I tried to commit again, and it asked for my username and password. 
         - I typed in my username, and for my password, I wrote in my passkey I made on github
-        - I also saved the passkey locally on my computer because it won't show you the passkey ever again and i need it to make commits
+        - I also saved the passkey locally on my computer because it won't show you the passkey ever again, and I need it to make commits
     
     8. Lastly, I used git push to push my changes to my repository, and I was able to see the new file on the GitHub website for my repository.
 
@@ -33,17 +33,25 @@ Steps I took Part 2:
 
     1. I first made a new branch called new branch
     
-    2. then I update new_file.txt
+    2. Then I update new_file.txt
 
-    3. when I tried to push my changes it wouldnt allow me as I was on a new branch
-        - Because of this I had to make the newbranch the head/origin branch
+    3. When I tried to push my changes, it wouldn't allow me as I was on a new branch
+        - Because of this, I had to make the new branch the head/origin branch
 
     4. I was now able to push my changes and pull from the repo
 
     5. I used git checkout main switch to switch to the main branch
 
-    6. then I used git pull origin main to get the updates from newbranch
+    6. Then I used git pull origin main to get the updates from new branch
 
-    7. next I used git merge master to combine the branch to my main branch
+    7. Next, I used git merge master to combine the branch with my main branch
 
-    8. lastly I used git push origin main to finalize the changes to the mainbranch
+    8. Lastly, I used git push origin main to finalize the changes to the main branch
+
+Steps I took Part 3:
+
+    1. I made a merge conflict by updating new_file.txt on both the GitHub website and on my computer locally
+        - because I purposely did not git pull first, my local repository did not have the updates that were already made
+    2. To resolve this, I had to merge my branches again using git config pull. rebase false
+        - then going into the file I had and updating it to resolve the conflict
+    3. Once I updated the file with the merge conflict, the conflict was resolved.
