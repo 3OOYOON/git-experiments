@@ -52,6 +52,8 @@ Steps I took Part 3:
 
     1. I made a merge conflict by updating new_file.txt on both the GitHub website and on my computer locally
         - because I purposely did not git pull first, my local repository did not have the updates that were already made
+        
     2. To resolve this, I had to merge my branches again using git config pull. rebase false
         - then going into the file I had and updating it to resolve the conflict
+        
     3. Once I updated the file with the merge conflict, the conflict was resolved.
